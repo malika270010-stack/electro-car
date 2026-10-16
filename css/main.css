@@ -1,0 +1,817 @@
+/* exo-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 200;
+  src: url("../fonts/exo-v25-latin-200.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* exo-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/exo-v25-latin-300.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* exo-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/exo-v25-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* exo-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/exo-v25-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* exo-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/exo-v25-latin-600.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* exo-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/exo-v25-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* exo-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/exo-v25-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* exo-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/exo-v25-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+button {
+  border: none;
+}
+body {
+  font-family: "Exo";
+}
+.container {
+  width: 100%;
+  max-width: 998px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+header {
+  background-color: rgb(10 10 11);
+  background-image:
+    url(../images/shadow-left.png), url(../images/shadow-right.png);
+  background-repeat: no-repeat;
+  background-position:
+    top left,
+    bottom right;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+.links {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+.link {
+  color: #fff;
+  line-height: 16px;
+}
+.link:hover {
+  color: #4177dc;
+}
+.menu-btn {
+  background-color: transparent;
+  display: none;
+  cursor: pointer;
+}
+.obshiy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  padding-top: 72px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Exo";
+  font-size: 36px;
+  line-height: 140%;
+}
+.title2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Exo";
+  font-size: 24px;
+  line-height: 140%;
+}
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 140%;
+  color: #babec4;
+  padding-bottom: 48px;
+}
+.carrr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+.img111 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.korsatkichlar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 130px;
+  margin-bottom: 56px;
+}
+.sonn {
+  font-family: "Exo";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 4px;
+}
+
+.tx {
+  font-family: "Exo";
+  color: #888b91;
+}
+main {
+  background-color: #0a0a0b;
+}
+.aboutcar-desc {
+  background-image: url(../images/about\ 1.png);
+  width: 480px;
+  height: 320px;
+  border-radius: 18px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.foto-text {
+  color: #fff;
+  width: 197px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  margin: -20px;
+}
+
+.aboutcar-container {
+  padding: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 130px;
+}
+.xcar {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.product {
+  font-family: "Exo";
+  font-size: 13px;
+  letter-spacing: 5px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.text {
+  max-width: 420px;
+  font-size: 15px;
+  font-family: "Exo";
+  line-height: 25px;
+  letter-spacing: 0px;
+  font-weight: 500px;
+  margin-bottom: 30px;
+  color: grey;
+}
+.asosiy-btn {
+  width: 180px;
+  background-color: #4177dc;
+  color: white;
+  padding: 16px 28px;
+  border-radius: 2px;
+  border: none;
+  font-weight: bold;
+}
+
+.cars-grid {
+  display: flex;
+
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 60px;
+}
+.car-card {
+  width: 280px;
+  border-radius: 20px;
+  background-color: #111213;
+  display: flex;
+  flex-direction: column;
+}
+h3 {
+  font-family: "Exo";
+  font-size: 22px;
+  color: #fff;
+}
+.car-image {
+  display: block;
+  width: 180px;
+  margin: 15px auto;
+}
+h4 {
+  font-family: "Exo";
+  font-size: 14px;
+  color: #babec4;
+}
+.out-btn {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px auto 0;
+  border: 2px solid #00ff88;
+  box-shadow:
+    0 0 15px #38c482,
+    inset 0 0 15px #00ff88;
+}
+.inner-btn {
+  background-color: transparent;
+  border: 2px solid #00ff88;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12px;
+  cursor: pointer;
+}
+.card-specs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 15px;
+  margin-bottom: 10px;
+}
+.spec {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #fff;
+  font-size: 13px;
+  margin: 0;
+}
+.spec:last-child {
+  width: 100%;
+}
+.car-card {
+  background-image: url(../images/shape.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 24px;
+}
+.cars-heading {
+  font-family: "Exo";
+  color: #fff;
+  margin-top: 72px;
+  margin-bottom: 64px;
+  text-align: center;
+}
+.card-price {
+  font-family: "Exo";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 140%;
+  color: #fff;
+  margin-top: 31px;
+  margin-bottom: 24px;
+}
+.card-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #4177dc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: auto;
+}
+.indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.map {
+  padding: 60px 0;
+  background-color: rgba(10, 10, 11, 1);
+}
+
+.map-title {
+  font-family: "Exo", sans-serif;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.map-background {
+  background-image: url("../images/Map.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 1000px;
+  height: 540px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.maaap {
+  background-image: url("../images/big-car.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.left-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.map-text {
+  color: #fff;
+  width: 140px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  padding: 12px 10px;
+  box-sizing: border-box;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(87px);
+}
+
+.map-text h2 {
+  font-family: "Exo", sans-serif;
+  font-size: 20px;
+  margin: 0 0 5px 0;
+}
+
+.map-text p {
+  font-family: "Exo", sans-serif;
+  font-size: 12px;
+  margin: 0;
+}
+
+.text-top {
+  margin-top: -80px;
+  margin-left: 280px;
+}
+
+.text-bottom {
+  margin-top: 80px;
+  margin-left: 280px;
+}
+
+.text-center {
+  margin-top: -50px;
+  margin-right: 250px;
+}
+
+.luxury {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 72px;
+}
+.cars-karts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding-bottom: 60px;
+}
+.special-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 72px;
+  padding-bottom: 70px;
+}
+.special-ofers {
+  background-image: url(../images/fonnnnn.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.special-btn {
+  width: 180px;
+  background-color: #4177dc;
+  color: white;
+  padding: 16px 28px;
+  border-radius: 2px;
+  border: none;
+  font-weight: bold;
+}
+.product2 {
+  color: #fff;
+  margin-bottom: 32px;
+  font-size: 24px;
+  line-height: 140%;
+  font-family: "Exo";
+}
+
+.text1 {
+  color: rgba(186, 190, 196, 1);
+  font-family: "Exo";
+  font-size: 16px;
+  width: 390px;
+  margin-top: 32px;
+  margin-bottom: 48px;
+}
+.logos {
+  padding-top: 76px;
+  padding-bottom: 74px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 106px;
+}
+footer {
+  background-color: #0a0a0b;
+}
+.footer-oxiri {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-text {
+  color: #babec4;
+  margin-top: 72px;
+  margin-bottom: 179px;
+}
+.titelk {
+  color: white;
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 24px;
+}
+.texti {
+  color: #babec4;
+  font-size: 16px;
+}
+.footer-icons {
+  color: #babec4;
+  margin-top: 24px;
+}
+.kichkina-text {
+  color: #babec4;
+  font-size: 12px;
+  line-height: 140%;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+footer {
+  background-image:
+    url(../images/shapeee.png), url(../images/shapee\ right.png);
+  background-repeat: no-repeat;
+  background-position:
+    top left,
+    bottom right;
+  padding: 24px;
+}
+@media (max-width: 450px) {
+  html,
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .link {
+    display: none;
+  }
+
+  .navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .obshiy {
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .title2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .text {
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 30px;
+    max-width: 100%;
+    line-height: 22px;
+    margin-bottom: 20px;
+  }
+
+  .carrr {
+    width: 100%;
+    max-width: 320px;
+    margin-bottom: 30px;
+  }
+
+  .korsatkichlar {
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .sonn {
+    font-size: 18px;
+  }
+
+  .tx {
+    font-size: 11px;
+  }
+
+  .aboutcar-container {
+    flex-direction: column;
+    padding: 40px 15px;
+    gap: 30px;
+  }
+
+  .aboutcar-desc {
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+    margin-top: 0;
+  }
+
+  .xcar {
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .product {
+    font-size: 11px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+  }
+
+  .asosiy-btn {
+    width: 100%;
+    max-width: 200px;
+    padding: 14px 22px;
+  }
+
+  .cars-heading {
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .cars-grid {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    justify-content: flex-start;
+    gap: 15px;
+    padding-bottom: 20px;
+  }
+
+  .car-card {
+    width: 260px;
+    min-width: 260px;
+    padding: 15px;
+  }
+
+  .car-image {
+    width: 100%;
+    max-width: 140px;
+  }
+
+  .card-specs {
+    gap: 8px 12px;
+  }
+
+  .spec {
+    font-size: 12px;
+  }
+
+  .card-price {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+  }
+
+  .card-btn {
+    width: 44px;
+    height: 44px;
+  }
+
+  .map {
+    padding: 40px 0;
+  }
+
+  .map-title {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+
+  .map-background {
+    width: 100%;
+    height: auto;
+    min-height: 300px;
+    background-size: contain;
+  }
+
+  .maaap {
+    width: 100%;
+    height: 280px;
+    padding: 0 10px;
+    background-size: contain;
+  }
+  .text-top,
+  .text-bottom,
+  .text-center {
+    margin: 0;
+  }
+
+  .left-side,
+  .right-side {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .map-text {
+    width: 100px;
+    padding: 8px 5px;
+  }
+
+  .map-text h2 {
+    font-size: 16px;
+  }
+
+  .map-text p {
+    font-size: 10px;
+  }
+
+  .special-container {
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+  }
+
+  .special-desc {
+    margin-bottom: 30px;
+  }
+
+  .product2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .text1 {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .special-btn {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .special-text img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .logos {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .logo {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+  }
+  .logo img {
+    max-width: 60px;
+  }
+
+  footer {
+    background-size: 150px, 150px;
+    padding: 20px 15px;
+  }
+
+  .footer-oxiri {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .footer-text {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .titelk {
+    font-size: 18px;
+  }
+
+  .texti {
+    font-size: 14px;
+  }
+}
